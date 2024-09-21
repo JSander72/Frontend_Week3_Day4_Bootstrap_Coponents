@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+        <title>Tech Solutions</title>
+    </head>
+    <body>
+        <section>
+            <div>
+                <div>
+                    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">Tech Solutions</a>
+                            <button
+                                class="navbar-toggler"
+                                type="button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarNav"
+                                aria-controls="navbarNav"
+                                aria-expanded="false"
+                                aria-label="Toggle navigation"
+                            >
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNav">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#"
+                                            >Home</a
+                                        >
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Services</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img
+                            src="images/mobile_app_support.jpg"
+                            class="card-img-top"
+                            alt="Mobile App Support"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Mobile Application Support</h5>
+                            <p class="card-text">
+                                Assistance with troubleshooting and resolving issues related to
+                                mobile apps on various platforms (iOS, Android, etc.). Can
+                                include help with installation, updates, performance problems,
+                                crashes, and compatibility issues. May also involve providing
+                                guidance on how to use specific app features or functionalities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img
+                            src="images/computer_tech_support.jpeg"
+                            class="card-img-top"
+                            alt="Computer Tech Support"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Computer Technical Support</h5>
+                            <p class="card-text">
+                                General technical assistance for computer-related problems, both
+                                hardware and software. Can encompass troubleshooting issues with
+                                operating systems, networks, peripherals, and applications. May
+                                involve virus removal, data recovery, system optimization, and
+                                hardware repair or replacement recommendations.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img
+                            src="images/server-maintenance.jpeg"
+                            class="card-img-top"
+                            alt="Server Maintenance"
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Server Maintenance Support</h5>
+                            <p class="card-text">
+                                Proactive and reactive services to ensure the optimal
+                                performance and reliability of servers. Includes regular
+                                monitoring, updates, backups, security checks, and
+                                troubleshooting of server-related problems. May involve
+                                performance tuning, capacity planning, and disaster recovery
+                                planning to minimize downtime and data loss.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h2>About Us</h2>
+                    <p>Content about Tech Solutions...</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Explore Our Support</h3>
+                    <ul>
+                        <li>Mobile Application Support</li>
+                        <li>Computer Technical Support</li>
+                        <li>Server Maintenance Support</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" />
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" />
+                </div>
+                <div class="form-group">
+                    <label for="service">Service of Interest</label>
+                    <select class="form-control" id="service">
+                        <option>Mobile Application Support</option>
+                        <option>Computer Technical Support</option>
+                        <option>Server Maintenance</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                
+            </form>
+        </section>
+        <div class="container">
+            <div class="button">
+                <button type="submit" class="btn btn-primary">Click Me</button>
+            </div>
+            
+        </div>
+        
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
